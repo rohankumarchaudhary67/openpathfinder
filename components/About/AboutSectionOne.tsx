@@ -24,7 +24,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Empowering small businesses through comprehensive digital services by Tech Palette"
+                title="Open Path Finder provide varities of Open Source projects and guidance."
                 paragraph=""
                 mb="44px"
               />
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Customized Web App Development" />
-                    <List text="Online Marketing Strategies" />
-                    <List text="E-commerce Solutions" />
+                    <List text="Frameworks and Libraries" />
+                    <List text="Operating Systems" />
+                    <List text="Application based" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Data Analytics and Insights" />
-                    <List text="Cybersecurity Measures" />
-                    <List text="Scalable Solutions" />
+                    <List text="Development based" />
+                    <List text="Databases based" />
+                    <List text="Utilities & Infrastructure" />
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/about-sec.png"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full lg:mr-0"

@@ -6,29 +6,28 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Sivam Kumar Roy",
-    designation: "Owner of Maharaja Clothes",
-    content:
-      "Tech Palette has been a game-changer for our small business. The web application they developed is sleek, functional, and tailored to our needs. Their online marketing strategies have significantly boosted our online presence. Plus, their scalable solutions make it easy to grow. Highly recommend!",
+    designation: "Front-end engineer",
+    content: "Open Path Finder has been an incredible resource for me as a beginner developer. The personalized project recommendations helped me find out the new open-source projects aligned with my interests and technical stack and skill level.",
     image: "/images/testimonials/user1.png",
     star: 5,
   },
   {
     id: 2,
     name: "Amitesh Tripathi",
-    designation: "Owner of Shekar Hospital",
+    designation: "Java Developer",
     content:
-      "Thanks to Tech Palette, our small business now has a powerful web application and a solid online marketing strategy. The team is responsive, creative, and understands the unique challenges of small businesses. Scaling up has never been this smooth. Tech Palette is our go-to for tech solutions!",
+      "Open Path Finder has been a game-changer for me in finding meaningful open-source projects to contribute to. The platform's intuitive interface and advanced search filters made it effortless to discover projects tailored to my preferences and tech stack.",
     image: "/images/testimonials/user2.png",
     star: 5,
   },
   {
     id: 3,
     name: "Rajpritam Dutta Choudhury",
-    designation: "Onwer of Dutta Coaching Institute",
+    designation: "Python Developer",
     content:
-      "Our experience with Tech Palette has been fantastic. They not only developed an impressive web app for us but also took our online marketing to the next level. The scalability of their solutions means we can grow without any tech headaches. Small businesses, you need Tech Palette on your team!",
+    "Open Path Finder is a highly recommended platform for developers at all skill levels. The customized project recommendations and advanced search filters helped me find projects that aligned perfectly with my interests and expertise.",
     image: "/images/testimonials/user3.png",
-    star: 5,
+    star: 4,
   },
 ];
 

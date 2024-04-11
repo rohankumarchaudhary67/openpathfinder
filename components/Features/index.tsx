@@ -12,7 +12,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="Empowering small businesses through comprehensive digital services by Tech Palette"
+            paragraph="Open Path Finder provide some intresting features to the beginner developers to learn something new about tech."
             center
           />
 

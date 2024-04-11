@@ -15,7 +15,7 @@ const menuData: Menu[] = [
   },
   {
     id: 33,
-    title: "Plans",
+    title: "Projects",
     path: "/",
     newTab: false,
   },
@@ -32,37 +32,37 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 41,
-        title: "Web Application",
+        title: "Project Discovery",
         path: "/",
         newTab: false,
       },
       {
         id: 42,
-        title: "Online Marketing",
+        title: "Community Collobration",
         path: "/",
         newTab: false,
       },
       {
         id: 43,
-        title: "E-commerce Solution",
+        title: "Mentorship Program",
         path: "/",
         newTab: false,
       },
       {
         id: 44,
-        title: "Data Analysis",
+        title: "Learning Resources",
         path: "/",
         newTab: false,
       },
       {
         id: 45,
-        title: "Cyber security Measure",
+        title: "Progress Tracking",
         path: "/",
         newTab: false,
       },
       {
         id: 46,
-        title: "Scalable Solutions",
+        title: "Event Listing",
         path: "/",
         newTab: false,
       }
