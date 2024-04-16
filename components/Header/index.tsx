@@ -146,7 +146,7 @@ const Header = () => {
                   Login Now
                 </Link>
                 <div>
-                  <ThemeToggler />
+                  {/* <ThemeToggler /> */}
                 </div>
               </div>
             </div>

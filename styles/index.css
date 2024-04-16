@@ -60,3 +60,8 @@
     @apply opacity-100;
   }
 }
+
+/* Footer Link Design */
+.footer-link:hover{
+  color: var(--primary-color-3)
+}
