@@ -40,4 +40,4 @@ This project is licensed under the MIT License. See the [LICENSE.md](./LICENSE) 
 
 ## 📌 Support
 
-For support, email _Providing Soon_.
+For support, email _team.openpathfinder@gmail.com_.
