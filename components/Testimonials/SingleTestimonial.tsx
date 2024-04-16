@@ -21,7 +21,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   return (
     <div className="w-full">
       <div
-        className="wow fadeInUp rounded-md bg-primary-1 p-8 shadow-one lg:px-5 xl:px-8"
+        className="wow fadeInUp rounded-md bg-primary bg-opacity-5 p-8 shadow-one lg:px-5 xl:px-8"
         data-wow-delay=".1s"
       >
         <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div>

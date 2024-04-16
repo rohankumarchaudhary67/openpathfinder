@@ -75,7 +75,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/company/openpathfinder"
                     target="_blank"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] text-primary-2"
