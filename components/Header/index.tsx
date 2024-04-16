@@ -86,7 +86,7 @@ const Header = () => {
                 </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white py-4 px-6 duration-300 dark:border-body-color/20 bg-primary-1 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${navbarOpen
+                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white py-4 px-6 duration-300 dark:border-body-color/20 bg-primary-2 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${navbarOpen
                     ? "visibility top-full opacity-100"
                     : "invisible top-[120%] opacity-0"
                     }`}
@@ -118,7 +118,7 @@ const Header = () => {
                               </span>
                             </a>
                             <div
-                              className={`submenu relative top-full left-0 rounded-md bg-primary-1 transition-[top] duration-300 group-hover:opacity-100 dark:bg-primary-1 lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${openIndex === index ? "block" : "hidden"
+                              className={`submenu relative top-full left-0 rounded-md bg-primary-2 bg-opacity-70 transition-[top] duration-300 group-hover:opacity-100 dark:bg-primary-1 lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${openIndex === index ? "block" : "hidden"
                                 }`}
                             >
                               {menuItem.submenu.map((submenuItem) => (
@@ -146,7 +146,7 @@ const Header = () => {
                   Login Now
                 </Link>
                 <div>
-                  {/* <ThemeToggler /> */}
+                  <ThemeToggler />
                 </div>
               </div>
             </div>

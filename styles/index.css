@@ -61,7 +61,10 @@
   }
 }
 
-/* Footer Link Design */
+/* Link Design */
 .footer-link:hover{
   color: var(--primary-color-3)
+}
+.nav-link:hover{
+  color: var(--primary-color-3);
 }
