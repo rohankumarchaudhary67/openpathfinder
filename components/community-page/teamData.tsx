@@ -2,6 +2,7 @@ import { Team } from "@/types/team";
 
 const teamData: Team[] = [
     {
+        id: 1,
         name: "Rohan Kumar Chaudhary",
         image: "/team/rohan_kumar.png",
         post: "Contributor",
@@ -11,6 +12,7 @@ const teamData: Team[] = [
         linkedin: "https://www.linkedin.com/in/rohankumarchaudhary67/"
     },
     {
+        id: 2,
         name: "Dheeraj",
         image: "/team/dheeraj.png",
         post: "Contributor",
@@ -20,6 +22,7 @@ const teamData: Team[] = [
         linkedin: "/community"
     },
     {
+        id: 3,
         name: "Aneesh Kumar Maury",
         image: "/team/aneesh_kumar.png",
         post: "Contributor",
@@ -29,6 +32,7 @@ const teamData: Team[] = [
         linkedin: "https://www.linkedin.com/in/aneeshmaury/"
     },
     {
+        id: 4,
         name: "Neha Kumari",
         image: "/team/neha_kumari.png",
         post: "Contributor",

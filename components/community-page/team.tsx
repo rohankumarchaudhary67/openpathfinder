@@ -12,7 +12,7 @@ export default function Team() {
                     </div>
                     <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-4">
                         {teamData.map((team_member) => (
-                            <div>
+                            <div key={team_member.id}>
                                 <Team_Person team_member={team_member} />
                             </div>
                         ))}
