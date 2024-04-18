@@ -4,7 +4,7 @@ const teamData: Team[] = [
     {
         id: 1,
         name: "Rohan Kumar Chaudhary",
-        image: "/team/rohan_kumar.png",
+        image: "/team/rohan_kumar.jpg",
         post: "Project Head",
         desc: "Passionate Full Stack Engineer | Transforming Ideas into Exceptional Solutions | Expert in Web Development, APIs, and Cloud Technologies",
         twitter: "https://twitter.com/rohan_kumar67",
@@ -40,6 +40,16 @@ const teamData: Team[] = [
         twitter: "/community",
         github: "/community",
         linkedin: "https://www.linkedin.com/in/neha7070/"
+    },
+    {
+        id: 5,
+        name: "Naitik Mundra",
+        image: "/team/naitik.jpg",
+        post: "Content Creator",
+        desc: "School student",
+        twitter: "/community",
+        github: "/community",
+        linkedin: "/community"
     },
 ]
 
