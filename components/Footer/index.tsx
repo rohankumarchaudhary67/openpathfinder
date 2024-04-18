@@ -190,7 +190,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/terms-of-services"
                       className="mb-4 inline-block text-base font-medium text-body-color footer-link"
                     >
                       {" "}
