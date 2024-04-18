@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Bg from "../bg";
+import Bg from "../../bg";
 
 const Hero = () => {
   return (

@@ -65,6 +65,9 @@
 .footer-link:hover{
   color: var(--primary-color-3)
 }
+.hover-link:hover{
+  color: var(--primary-color-3)
+}
 .nav-link:hover{
   color: var(--primary-color-3);
 }
