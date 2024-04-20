@@ -51,6 +51,16 @@ const teamData: Team[] = [
         github: "/community",
         linkedin: "/community"
     },
+    {
+        id: 6,
+        name: "Gurmeet Verma",
+        image: "/team/gurmeet_verma.png",
+        post: "Contributor",
+        desc: "CSE Student",
+        twitter: "/community",
+        github: "https://github.com/vermagurmeet2",
+        linkedin: "https://www.linkedin.com/in/gurmeet-verma-a0420a262/"
+    },
 ]
 
 export default teamData;
