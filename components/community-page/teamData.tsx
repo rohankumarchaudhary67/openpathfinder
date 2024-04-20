@@ -13,6 +13,16 @@ const teamData: Team[] = [
     },
     {
         id: 2,
+        name: "Gurmeet Verma",
+        image: "/team/gurmeet_verma.png",
+        post: "Contributor",
+        desc: "CSE Student",
+        twitter: "/community",
+        github: "https://github.com/vermagurmeet2",
+        linkedin: "https://www.linkedin.com/in/gurmeet-verma-a0420a262/"
+    },
+    {
+        id: 3,
         name: "Dheeraj",
         image: "/team/dheeraj.png",
         post: "Contributor",
@@ -20,16 +30,6 @@ const teamData: Team[] = [
         twitter: "/community",
         github: "/community",
         linkedin: "/community"
-    },
-    {
-        id: 3,
-        name: "Aneesh Kumar Maury",
-        image: "/team/aneesh_kumar.png",
-        post: "Contributor",
-        desc: "Professional Front-End Developer | JavaScript | React.js | Next.js | Node.js | Express.js | Animation",
-        twitter: "https://twitter.com/codewithaneesh",
-        github: "https://github.com/aneeshmaury",
-        linkedin: "https://www.linkedin.com/in/aneeshmaury/"
     },
     {
         id: 4,
@@ -43,6 +43,16 @@ const teamData: Team[] = [
     },
     {
         id: 5,
+        name: "Aneesh Kumar Maury",
+        image: "/team/aneesh_kumar.png",
+        post: "Contributor",
+        desc: "Professional Front-End Developer | JavaScript | React.js | Next.js | Node.js | Express.js | Animation",
+        twitter: "https://twitter.com/codewithaneesh",
+        github: "https://github.com/aneeshmaury",
+        linkedin: "https://www.linkedin.com/in/aneeshmaury/"
+    },
+    {
+        id: 6,
         name: "Naitik Mundra",
         image: "/team/naitik.jpg",
         post: "Content Creator",
@@ -50,16 +60,6 @@ const teamData: Team[] = [
         twitter: "/community",
         github: "/community",
         linkedin: "/community"
-    },
-    {
-        id: 6,
-        name: "Gurmeet Verma",
-        image: "/team/gurmeet_verma.png",
-        post: "Contributor",
-        desc: "CSE Student",
-        twitter: "/community",
-        github: "https://github.com/vermagurmeet2",
-        linkedin: "https://www.linkedin.com/in/gurmeet-verma-a0420a262/"
     },
 ]
 
