@@ -134,7 +134,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/about"
                       className="mb-4 inline-block text-base font-medium text-body-color footer-link"
                     >
                       {" "}
