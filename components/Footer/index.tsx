@@ -36,7 +36,7 @@ const Footer = () => {
                     href="https://twitter.com/open_pathfinder"
                     target="_blank"
                     aria-label="social-link"
-                    className="mr-6 text-[#CED3F6] footer-link"
+                    className="mr-6 text-[#5c66b0] footer-link"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ const Footer = () => {
                     href="https://www.instagram.com/openpathfinder/"
                     target="_blank"
                     aria-label="social-link"
-                    className="mr-6 text-[#CED3F6] footer-link"
+                    className="mr-6 text-[#5c66b0] footer-link"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ const Footer = () => {
                     href="https://github.com/rohankumarchaudhary67/openpathfinder"
                     target="_blank"
                     aria-label="social-link"
-                    className="mr-6 text-[#CED3F6] footer-link"
+                    className="mr-6 text-[#5c66b0] footer-link"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ const Footer = () => {
                     href="https://www.linkedin.com/company/openpathfinder"
                     target="_blank"
                     aria-label="social-link"
-                    className="mr-6 text-[#CED3F6] footer-link"
+                    className="mr-6 text-[#5c66b0] footer-link"
                   >
                     <svg
                       width="20"
