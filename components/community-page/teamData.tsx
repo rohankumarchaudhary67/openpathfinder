@@ -23,16 +23,6 @@ const teamData: Team[] = [
     },
     {
         id: 3,
-        name: "Dheeraj",
-        image: "/team/dheeraj.png",
-        post: "Contributor",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sae",
-        twitter: "/community",
-        github: "/community",
-        linkedin: "/community"
-    },
-    {
-        id: 4,
         name: "Neha Kumari",
         image: "/team/neha_kumari.png",
         post: "Contributor",
@@ -42,7 +32,7 @@ const teamData: Team[] = [
         linkedin: "https://www.linkedin.com/in/neha7070/"
     },
     {
-        id: 5,
+        id: 4,
         name: "Aneesh Kumar Maury",
         image: "/team/aneesh_kumar.png",
         post: "Contributor",
@@ -52,7 +42,7 @@ const teamData: Team[] = [
         linkedin: "https://www.linkedin.com/in/aneeshmaury/"
     },
     {
-        id: 6,
+        id: 5,
         name: "Naitik Mundra",
         image: "/team/naitik.jpg",
         post: "Content Creator",
