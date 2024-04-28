@@ -13,26 +13,16 @@ const teamData: Team[] = [
     },
     {
         id: 2,
-        name: "Dheeraj",
-        image: "/team/dheeraj.png",
+        name: "Gurmeet Verma",
+        image: "/team/gurmeet_verma.png",
         post: "Contributor",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sae",
+        desc: "CSE Student",
         twitter: "/community",
-        github: "/community",
-        linkedin: "/community"
+        github: "https://github.com/vermagurmeet2",
+        linkedin: "https://www.linkedin.com/in/gurmeet-verma-a0420a262/"
     },
     {
         id: 3,
-        name: "Aneesh Kumar Maury",
-        image: "/team/aneesh_kumar.png",
-        post: "Contributor",
-        desc: "Professional Front-End Developer | JavaScript | React.js | Next.js | Node.js | Express.js | Animation",
-        twitter: "https://twitter.com/codewithaneesh",
-        github: "https://github.com/aneeshmaury",
-        linkedin: "https://www.linkedin.com/in/aneeshmaury/"
-    },
-    {
-        id: 4,
         name: "Neha Kumari",
         image: "/team/neha_kumari.png",
         post: "Contributor",
@@ -40,6 +30,16 @@ const teamData: Team[] = [
         twitter: "/community",
         github: "/community",
         linkedin: "https://www.linkedin.com/in/neha7070/"
+    },
+    {
+        id: 4,
+        name: "Aneesh Kumar Maury",
+        image: "/team/aneesh_kumar.png",
+        post: "Contributor",
+        desc: "Professional Front-End Developer | JavaScript | React.js | Next.js | Node.js | Express.js | Animation",
+        twitter: "https://twitter.com/codewithaneesh",
+        github: "https://github.com/aneeshmaury",
+        linkedin: "https://www.linkedin.com/in/aneeshmaury/"
     },
     {
         id: 5,

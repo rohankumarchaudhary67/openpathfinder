@@ -48,5 +48,10 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      textColor: ['dark'], // To enable dark mode variants
+    },
+  },
   plugins: [],
 };
