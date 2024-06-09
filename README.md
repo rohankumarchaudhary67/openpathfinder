@@ -30,7 +30,6 @@ Navigate Your Coding Journey: Explore Open Source Projects by Tech Stack, Connec
 - [Tailwind](https://tailwindcss.com/) – CSS
 - [MongoDB](https://www.mongodb.com/) – database
 - [NextAuth.js](https://next-auth.js.org/) – auth
-- [Stripe](https://stripe.com/) – payments
 - [Vercel](https://vercel.com/) – deployments
 
 ## 🛡️ License
