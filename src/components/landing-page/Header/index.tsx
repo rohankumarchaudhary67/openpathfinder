@@ -6,6 +6,7 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
+    
     // Navbar toggle
     const [navbarOpen, setNavbarOpen] = useState(false);
     const navbarToggleHandler = () => {
@@ -146,8 +147,7 @@ const Header = () => {
                                     href={"/login"}
                                     legacyBehavior
                                 >
-                                    <a className="ease-in-up hidden rounded-md bg-[var(--primary-color-2)] py-3 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-6 lg:px-6 xl:px-6"
-                                    target="_blank">Login Now</a>
+                                    <a className="ease-in-up hidden rounded-md bg-[var(--primary-color-2)] py-3 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-6 lg:px-6 xl:px-6">Open App</a>
                                 </Link>
                                 <div>
                                     <ThemeToggler />

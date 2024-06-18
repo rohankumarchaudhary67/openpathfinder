@@ -18,7 +18,7 @@ const InputField: React.FC<InputFieldProps> = ({
             type={type}
             name={name}
             placeholder={placeholder}
-            className={`w-full mb-4 rounded-md border border-body-color border-opacity-10 py-3 px-6 text-base font-medium text-body-color placeholder-body-color outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none dark:border-white dark:border-opacity-10 dark:bg-[#242B51] focus:dark:border-opacity-50 ${extraClasses}`}
+            className={`w-full mb-4 rounded-md border border-body-color border-opacity-10 py-3 px-6 text-base font-medium text-white placeholder-body-color outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none dark:border-white dark:border-opacity-10 dark:bg-[#242B51] focus:dark:border-opacity-50 ${extraClasses}`}
         />
     );
 };
