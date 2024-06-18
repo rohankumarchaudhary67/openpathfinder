@@ -1,5 +1,5 @@
 {
-  "name": "openpathfinder",
+  "name": "open-pathfinder",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,24 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.1.6",
-    "eslint": "8.33.0",
-    "eslint-config-next": "13.1.6",
-    "mongoose": "^8.1.0",
-    "next": "13.1.6",
-    "next-themes": "^0.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-modal-video": "^2.0.0"
+    "next": "14.2.4",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "@types/react": "^18.0.34",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "prettier": "^2.8.3",
-    "prettier-plugin-tailwindcss": "^0.2.2",
-    "tailwindcss": "^3.2.4",
-    "typescript": "^5.0.4"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
