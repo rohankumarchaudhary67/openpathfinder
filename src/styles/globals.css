@@ -11,8 +11,8 @@
     --primary-color-3: #FF204E;
 }
 
-.container{
-  @apply mx-auto;
+.container {
+    @apply mx-auto;
 }
 
 @layer base {

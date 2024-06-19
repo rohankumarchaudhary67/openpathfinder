@@ -4,8 +4,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import { useRecoilValue } from "recoil";
-import { userAvailable } from "@/recoilStore/atoms/userAtom";
 
 const Header = () => {
     
@@ -149,7 +147,7 @@ const Header = () => {
                                     href={"/login"}
                                     legacyBehavior
                                 >
-                                    <a className="ease-in-up hidden rounded-md bg-[var(--primary-color-2)] py-3 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-6 lg:px-6 xl:px-6">Open App</a>
+                                    <a target="_blank" className="ease-in-up hidden rounded-md bg-[var(--primary-color-2)] py-3 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-6 lg:px-6 xl:px-6">Open App</a>
                                 </Link>
                                 <div>
                                     <ThemeToggler />
