@@ -23,7 +23,7 @@ export default function FindProjectComp() {
     return (
         <>
             <Search />
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 py-4">
+            <div className="md:container mx-auto grid grid-cols-1 md:grid-cols-2 py-2">
                 {projects.map((project, index) => (
                     <SingleProject key={index} project={project} />
                 ))}
