@@ -19,6 +19,7 @@ export default function LoginComponent() {
     const handleLogin = async () => {
         try {
             const { data } = await axios.post('/api/login', user);
+            window.location.reload();
             data.success ? router.push('/dashboard') : setError('Invalid Credentials...');
         } catch (err: any) {
             setError(err.message);

@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import { useRecoilValue } from "recoil";
+import { userAvailable } from "@/recoilStore/atoms/userAtom";
 
 const Header = () => {
     
