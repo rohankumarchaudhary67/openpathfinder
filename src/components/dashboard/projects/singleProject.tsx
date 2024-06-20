@@ -4,7 +4,7 @@ export default function SingleProject({ project }: any) {
     return (
         <>
             <div className="md:px-4">
-                <div className="flex flex-col mt-6 text-white bg-[var(--dark-bg-color)] shadow-md bg-clip-border rounded-xl w-full">
+                <div className="flex flex-col mt-6 text-white bg-black md:backdrop-blur-sm bg-opacity-30 shadow-md bg-clip-border rounded-xl w-full">
                     <div className="p-6">
                         <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                             {project.projectName}

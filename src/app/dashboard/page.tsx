@@ -1,4 +1,5 @@
 import Bg from "@/components/ui/bg";
+import LightBg from "@/components/ui/light-bg";
 
 export default function Dashboard(){
     return(

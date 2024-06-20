@@ -8,6 +8,7 @@ import axios from 'axios';
 import { useParams } from 'next/navigation'
 import { useEffect } from 'react';
 import { useSetRecoilState } from 'recoil';
+import Bg from '@/components/ui/bg';
 
 export default function Post() {
     const { profile } = useParams();
@@ -37,7 +38,7 @@ export default function Post() {
 
     return (
         <>
-            <div className="min-h-screen px-4 md:px-12 pt-24 bg-black">
+            <div className="min-h-screen px-4 md:px-12 pt-24 bg-transparent">
                 <div className="md:container mx-auto">
                     <UserInfo />
                     <GeneralInfo />
@@ -46,6 +47,7 @@ export default function Post() {
                     </div>
                 </div>
             </div>
+            <Bg />
         </>
     )
 }

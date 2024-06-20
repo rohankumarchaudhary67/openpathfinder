@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import { Providers } from "./providers";
 import RecoilProvider from "@/recoilStore/recoilProvider";
+import ScrollToTop from "@/components/ui/scrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Providers>
           <RecoilProvider>
             {children}
+            <ScrollToTop />
           </RecoilProvider>
         </Providers>
       </body>
