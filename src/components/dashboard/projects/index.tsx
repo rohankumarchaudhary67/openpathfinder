@@ -1,6 +1,5 @@
 'use client'
 import { useEffect } from "react";
-import Search from "./search";
 import SingleProject from "./singleProject";
 import { useRecoilState } from "recoil";
 import { projectsAtom } from "@/recoilStore/atoms/projectAtom";
@@ -22,7 +21,6 @@ export default function FindProjectComp() {
 
     return (
         <>
-            <Search />
             <div className="md:container mx-auto grid grid-cols-1 md:grid-cols-2 py-2">
                 {projects.map((project, index) => (
                     <SingleProject key={index} project={project} />

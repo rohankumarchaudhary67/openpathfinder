@@ -39,7 +39,7 @@ export default function NavLink() {
             <div className={`items-center justify-between ${isNavbarMenuVisible && "hidden"} w-full md:flex md:w-auto md:order-1`} id="navbar-user">
                 <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-black dark:border-gray-700">
                     <NavLinks navName='Find Project' href={`/dashboard/findProject`} isNavbarMenuVisible={isNavbarMenuVisible} setisNavbarMenuVisiblet={setisNavbarMenuVisible} />
-                    <NavLinks navName='Mentors' href={`/`} isNavbarMenuVisible={isNavbarMenuVisible} setisNavbarMenuVisiblet={setisNavbarMenuVisible} />
+                    <NavLinks navName='Mentors' href={`/dashboard/mentors`} isNavbarMenuVisible={isNavbarMenuVisible} setisNavbarMenuVisiblet={setisNavbarMenuVisible} />
                     <NavLinks navName='Learnings' href={`/`} isNavbarMenuVisible={isNavbarMenuVisible} setisNavbarMenuVisiblet={setisNavbarMenuVisible} />
                     <NavLinks navName='Blogs' href={`/`} isNavbarMenuVisible={isNavbarMenuVisible} setisNavbarMenuVisiblet={setisNavbarMenuVisible} />
                     <NavLinks navName='Roadmap' href={`/`} isNavbarMenuVisible={isNavbarMenuVisible} setisNavbarMenuVisiblet={setisNavbarMenuVisible} />

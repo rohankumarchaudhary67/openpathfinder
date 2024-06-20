@@ -7,7 +7,7 @@ export default function UserInfo() {
 
     return (
         <>
-            <div className="w-full mb-8 p-8 sm:flex sm:space-x-6 bg-black bg-opacity-30 md:backdrop-blur-sm rounded-xl text-white">
+            <div className="w-full mb-8 p-8 sm:flex sm:space-x-6 bg-black bg-opacity-30 rounded-xl text-white">
                 <div className="flex-shrink-0 w-full mb-6 sm:h-32 sm:w-32 sm:mb-0">
                     <img src="/user.png" alt="" className="object-cover object-center w-full h-full rounded" />
                 </div>
