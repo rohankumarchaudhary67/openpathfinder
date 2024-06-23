@@ -21,7 +21,7 @@ Navigate Your Coding Journey: Explore Open Source Projects by Tech Stack, Connec
 - Explore Open Source
 - Create and Join Dev Communites (upcoming...)
 - Chat with other developers (upcoming...)
-- Find the internships (upcoming...)
+
 
 ## Tech Stack
 
